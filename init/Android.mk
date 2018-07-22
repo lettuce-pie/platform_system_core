@@ -41,7 +41,7 @@ init_cflags += \
 
 include $(CLEAR_VARS)
 LOCAL_CPPFLAGS := $(init_cflags)
-LOCAL_SRC_FILES := main.cpp vendor_init.cpp
+LOCAL_SRC_FILES := main.cpp
 
 LOCAL_MODULE:= init
 
